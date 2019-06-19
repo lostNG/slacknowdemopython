@@ -1,7 +1,6 @@
 #app.py
 
 from flask import Flask, request #import main Flask class and request object
-import json
 
 app = Flask(__name__) #create the Flask app
 

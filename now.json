@@ -1,4 +1,5 @@
 {
   "version": 2,
-  "builds": [{ "src": "*.py", "use": "@now/python" }]
+  "builds": [{ "src": "slash.py", "use": "@now/python" }],
+  "routes": [{ "src": "(.*)", "dest": "slash.py" }]
 }
