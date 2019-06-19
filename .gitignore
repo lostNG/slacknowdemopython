@@ -1,11 +1,4 @@
 *.log
 *.tmp
-Temp/
-charts/
-_backups/
-persistent_*.json
 *.bak
 *.old
-tests/*.ttf
-tests/*.otf
-tests/fonts/
