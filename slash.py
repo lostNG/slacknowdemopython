@@ -1,6 +1,6 @@
 #app.py
 
-from flask import Flask, request #import main Flask class and request object
+from flask import Flask, request, make_response, Response, jsonify
 
 app = Flask(__name__) #create the Flask app
 
