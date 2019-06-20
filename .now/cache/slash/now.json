@@ -1,5 +1,0 @@
-{
-  "version": 2,
-  "builds": [{ "src": "slash.py", "use": "@now/python", "config": { "maxLambdaSize": "40mb" } }],
-  "routes": [{ "src": "(.*)", "dest": "slash.py" }]
-}
