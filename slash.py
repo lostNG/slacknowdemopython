@@ -4,7 +4,7 @@ from flask import Flask, request #import main Flask class and request object
 
 app = Flask(__name__) #create the Flask app
 
-@app.route('/', methods=['POST'])
+@app.route('/', defaults={'path': ''})
 def slash_response():        
     user_id = request.form.get('user_id')
     response = '{"text": "Hi there, <@' + user_id + '>"}'
