@@ -3,6 +3,8 @@
 from flask import Flask, request, make_response, Response, jsonify
 
 
+SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
+
 app = Flask(__name__) #create the Flask app
 
 @app.route('/', defaults={'path': ''})
