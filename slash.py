@@ -10,7 +10,7 @@ SLACK_BOT_TOKEN = os.environ["SLACK_BOT_TOKEN"]
 @app.route('/', methods=['POST'])
 def slash_response():
     user_id = request.form.get('user_id')
-    response = '{"text": "ciao, <@' + user_id + '>"}'
+    response = '{"text": "Ciao, <@' + user_id + '>"}'
     return response, 200, {'content-type': 'application/json'}
 
 if __name__ == '__main__':
