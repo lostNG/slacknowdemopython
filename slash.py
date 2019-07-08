@@ -6,6 +6,7 @@ import os
 import slack
 import json
 from flask import Flask, request  # import main Flask class and request object
+import numpy
 
 app = Flask(__name__)  # create the Flask app
 
