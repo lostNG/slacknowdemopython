@@ -1,6 +1,5 @@
 numpy==1.16.0rc1
 fastai
-starlette
 flask==1.0.2
 slackclient==2.0.0
 idna_ssl
