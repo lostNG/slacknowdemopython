@@ -3,11 +3,8 @@ fastai
 starlette
 uvicorn
 python-multipart
-aiofiles
-aiohttp
 flask==1.0.2
 slackclient==2.0.0
-Bottleneck==1.2.0
 idna_ssl
 boto3
 bs4
